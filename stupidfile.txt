@@ -1,4 +1,3 @@
 halp
 
-<<<<<<< HEAD
 no more bug :D
