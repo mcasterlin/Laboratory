@@ -12,7 +12,7 @@ HEAD = ''
 
 os.system('clear')
 while(1):
-    time.sleep(0.015)
+    time.sleep(0.01)
     HEAD = marquee[char_count]
     sys.stdout.write(HEAD)
     sys.stdout.flush()
