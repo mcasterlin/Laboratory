@@ -4,9 +4,8 @@ import os
 
 with open ("cake.txt", "r") as myfile:
     data=myfile.read()
-
-#string = 'abcdefghijklmnopqrstuvwxyz'
 marquee = list(data)
+
 char_count = 0
 HEAD = ''
 
@@ -17,5 +16,10 @@ while(1):
     sys.stdout.write(HEAD)
     sys.stdout.flush()
     char_count += 1
+
     if char_count == len(marquee):
-        break;
+        time.sleep(5)
+        os.system("archey3")
+        time.sleep(10)
+        char_count = 0
+        os.system('clear')
