@@ -14,7 +14,7 @@ HEAD = ''
 # Loop which prints chars until end of array, then runs archey
 os.system('clear')
 while(1):
-    time.sleep(0.005)
+    time.sleep(0.010)
     HEAD = marquee[char_count]
     sys.stdout.write(HEAD)
     sys.stdout.flush()
